@@ -1,0 +1,60 @@
+========================================
+APK 反编译工具 - 快速开始指南
+========================================
+
+📁 项目文件结构：
+  • Core/ - 核心功能模块
+  • GUI/ - 图形界面程序
+  • Tools/ - 辅助工具脚本
+  • Docs/ - 使用文档
+  • Backup/ - 备用启动脚本
+  • 缓存/ - Python 缓存（可删除）
+
+🚀 启动方式（已修复）：
+
+方式 1：双击 run.bat（推荐）⭐
+  双击 run.bat
+  或命令行：.\run.bat
+
+方式 2：双击 start.bat
+  双击 start.bat
+  或命令行：.\start.bat
+
+方式 3：命令行运行启动器
+  python GUI\启动器.py
+  或
+  python GUI\launcher.py
+
+方式 4：直接运行特定版本
+  python GUI\gui_ultimate.py  (v5.0 终极版) ⭐
+  python GUI\gui_v4.py        (v4.0 重构版)
+  python GUI\gui_modern.py    (v3.0 现代版)
+  python GUI\gui_standalone.py (v2.0 经典版)
+
+📋 v5.0 Ultimate 功能：
+  ✓ 整合所有功能
+  ✓ 白天/黑夜主题切换 (Ctrl+T)
+  ✓ DEX 反编译为 Smali/Java
+  ✓ 代码编辑功能
+  ✓ 资源查看（图片/视频）
+  ✓ APK 签名与去签名
+  ✓ 字符串解密
+  ✓ 混淆分析
+  ✓ 文件浏览器（5000 文件限制）
+  ✓ 后台 DEX 处理
+
+🔧 依赖安装：
+
+pip install -r requirements.txt
+
+或运行：Tools\install.bat
+
+📖 文档位置：
+  查看 Docs/ 文件夹
+
+⚠️ 注意事项：
+  - 需要 Python 3.8+
+  - 首次运行会自动安装依赖
+  - 如果遇到编码问题，使用 run.bat
+
+========================================
